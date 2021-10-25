@@ -1,0 +1,38 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.mp-bg{
+    background-color: #083b4c ;
+}
+
+.mp-title{
+    color: white;
+    font-size: 70px;
+    font-weight: 700;
+    padding-top: 30px;
+}
+
+.box{
+    width: 80px;
+    height: 80px;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1389b2;    
+}
+
+.box.fizz{
+    background-color: #0bd6a1;
+}
+
+.box.buzz{
+    background-color: #ffd166;
+}
+
+.box.fizzbuzz{
+    background-color: #f0466f;
+}
